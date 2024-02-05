@@ -1,6 +1,6 @@
 
 .home-intro{
-    background: url(/images/leaves.jpg);
+    background: url("/images/leaves.jpg");
     /* background-color: #9c9b9bee; */
     background-blend-mode: multiply;
     background-size: cover;
