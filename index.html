@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Practice Self</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- Bootstrap JS (Make sure to include the Popper.js library as well) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+   
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+<!-- Navbar + Home -->
+<header class="">
+  <!-- Nav --> 
+  <nav class=" navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-fluid justify-content-center">
+        <a class="navbar-brand p-1 fs-3" href="#">DevelopByN</a>
+        <!-- Togle -->
+        <button class=" navbar-toggler shadow-none border-2 justify-content-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          MENU<span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Sidebar -->
+        <div class="sidebar offcanvas offcanvas-start " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header border-bottom shadow-none">
+            <h5 class="offcanvas-title text-dark" id="offcanvasNavbarLabel">DevelopByN</h5>
+            <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <!-- Sidebar Body -->
+          <div class="offcanvas-body d-flex flex-column flex-lg-row p-3 justify-content-center">
+            <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3 fs-5">
+              <li class="nav-item mx-2 ">
+                <a class="nav-link " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#srvices">Services</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#aboutus">About Us</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#contactus">Contact us</a>
+              </li>
+            
+            </ul>
+            <div class="d-flex flex-column  flex-lg-row align-items-center justify-content-center gap-3 text-decoration-none  pe-3">
+              <a href="#login"  class="text-decoration-none text-white px-3 py-1 rounded-4" style="background-color: blue;">Log In</a>
+              <a href="#signup" class="text-decoration-none text-white px-3 py-1 rounded-4" 
+                  style="background-color: #ff5521;" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              >Sign Up</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      
+  </nav>
+</header>
+<main>
+  <section class="home-intro">
+    <!-- Text over Image -->
+    <p class="text-uppercase"  style="font-size: 50px;font-weight: 600; color: #fff;">Welcome to our Website</p>
+    <a class="text-uppercase text-decoration-none"  style="font-size: 70px;font-weight: 600; color: #fff;">It's Nice to meet you!</a>
+  </section> 
+<!-- Service -->
+<section class="pg-section" id="srvices">
+  <div class=" container pt-5 text-center" > 
+    <div class="row ">
+        <div class="col-12">
+            <h1 class=" text-uppercase" >Services</h1>
+            <a class="text-dark text-uppercase text-decoration-none fw-bolder ">Our Services at Every Department</a>
+        </div>
+    </div>
+    <div class="container mt-4" style="height: auto;">
+      <div class="row d-flex">
+        <div class="col-md-4 ">
+          <div class="icon">
+            <i class="fa fa-shopping-cart rounded-circle" aria-hidden="true"></i>
+          </div>
+          <h4 class="fw-bolder mt-3">E-Commerce</h4>
+          <p class="text-muted fs-5 ">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+          </p>
+        </div>
+        <div class="col-md-4" >
+           <div class="icon ">
+            <i class="fa fa-tablet rounded-circle" aria-hidden="true"></i>
+          </div>
+          <h4 class="fw-bolder mt-3">Responsive Design</h4>
+          <p class="text-muted fs-5 ">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+          </p>
+        </div>
+        <div class="col-md-4" > 
+          <div class="icon ">
+            <i class="fa fa-lock rounded-circle" aria-hidden="true"></i>
+          </div>
+          <h4 class="fw-bolder mt-3">Web Security</h4>
+          <p class="text-muted fs-5 ">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio -->
+<section class="bg-light pg-section" id="portfolio">
+  <div class="container pt-5  text-center " >
+    <p class="text-uppercase h1">portfolio</p>
+    <p class="text-uppercase h5 pb-3">Our Projects</p>
+    <div class="row pt-4">
+      <!-- style="border: 1px solid red;" -->
+      <div class="col-lg-4 ">
+        <div class="portfolio-content">
+          <div class="portfolio-img">
+            <img src="images/s1.jpg" class="p-img">
+            <div class="overlay">
+              <div class="text">+</div>
+            </div>
+          </div>
+          <div class="portfolio-text">
+            <p class="text-uppercase h4 mt-4 fw-bolder">portfolio</p>
+            <p class="text-uppercase text-muted ">Our Projects</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="portfolio-content">
+          <div class="portfolio-img">
+            <img src="images/b1.jpg" class="p-img">
+            <div class="overlay">
+              <div class="text">+</div>
+            </div>
+          </div>
+          <div class="portfolio-text">
+            <p class="text-uppercase h4 mt-4 fw-bolder">portfolio</p>
+            <p class="text-uppercase text-muted">Our Projects</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="portfolio-content">
+          <div class="portfolio-img">
+            <img src="images/b2.jpg" class="p-img">
+            <div class="overlay">
+              <div class="text">+</div>
+            </div>
+          </div>
+          <div class="portfolio-text">
+            <p class="text-uppercase h4 mt-4 fw-bolder">portfolio</p>
+            <p class="text-uppercase text-muted">Our Projects</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="row mt-3">
+      <div class="col-lg-4">
+        <div class="portfolio-content">
+          <div class="portfolio-img">
+            <img src="images/car.jpg" class="p-img">
+            <div class="overlay">
+              <div class="text">+</div>
+            </div>
+          </div>
+          <div class="portfolio-text">
+            <p class="text-uppercase h4 mt-4 fw-bolder">portfolio</p>
+            <p class="text-uppercase text-muted">Our Projects</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="portfolio-content">
+          <div class="portfolio-img">
+            <img src="images/business.jpg" class="p-img">
+            <div class="overlay">
+              <div class="text">+</div>
+            </div>
+          </div>
+          <div class="portfolio-text">
+            <p class="text-uppercase h4 mt-4 fw-bolder">portfolio</p>
+            <p class="text-uppercase text-muted">Our Projects</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="portfolio-content">
+          <div class="portfolio-img">
+            <img src="images/ai.jpg" class="p-img">
+            <div class="overlay">
+              <div class="text">+</div>
+            </div>
+          </div>
+          <div class="portfolio-text">
+            <p class="text-uppercase h4 mt-4 fw-bolder">portfolio</p>
+            <p class="text-uppercase text-muted">Our Projects</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="pg-section"  id="aboutus">
+    <div class="container pt-5  text-center ">
+      <p class="h1 text-uppercase">about</p>
+      <p class="h5 text-muted pb-4">Lorem ipsum dolor sit amet</p>
+    </div>
+    <ul class="about-content">
+      <li>
+            <div class="about-images">
+              <img src="images/mainimg2.jpg" class="rounded-circle border-4 img-fluid about-img">
+            </div>
+            <div class="about-text">
+              <div class="about-heading">
+                <h4>2018-19</h4>
+                <h4>Our Beginning</h4>
+              </div>
+              <div class="about-other">
+                <p class="text-muted ">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                </p>
+              </div>
+            </div>
+      </li> 
+      <li class="mt-5" >
+            <div class="about-images">
+              <img src="images/pexels-luke-barky-2899726.jpg" class="rounded-circle border-4 about-img">
+            </div>  
+            <div class="about-text1">
+              <div class="about-heading">
+                <h4>2020-2021</h4>
+                <h4>Second Chapter</h4>
+              </div>
+              <div class="about-other">
+                <p class="text-muted ">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                </p>
+              </div>
+            </div>
+      </li>
+      <li class="mt-5">
+            <div class="about-images">
+              <img src="images/pexels-miguel-villena-pezo-19990385.jpg" class="rounded-circle border-4 img-fluid about-img">
+            </div>
+            <div class="about-text">
+              <div class="about-heading">
+                <h4>2022-2023</h4>
+                <h4>Third Chapter</h4>
+              </div>
+              <div class="about-other">
+                <p class="text-muted ">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                </p>
+              </div>
+            </div>
+      </li>
+      <li class="mt-5">
+            <div class="about-images ">
+              <img src="images/pexels-egil-sjøholt-1906658.jpg" class="rounded-circle border-4 about-img">
+            </div>  
+            <div class="about-text1">
+              <div class="about-heading">
+                <h4>2023-2024</h4>
+                <h4>Fourth Chapter</h4>
+              </div>
+              <div class="about-other">
+                <p class="text-muted ">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                </p>
+              </div>
+            </div>
+      </li>
+      <li class="mt-5">
+        <div class="about-images1 ">
+          <h4 class="about-img border-5 rounded-circle bg-warning text-white text-center">Be Part <br> of Our <br> Story</h4>
+        </div> 
+      </li>
+    </ul>
+</section>
+
+<!-- CONTACT US -->
+<section class="pg-section contact pb-5  text-white" id="contactus">
+  <div class="container pt-2 text-center text-white">
+    <h1 class="text-uppercase ">Contact us</h1>
+  </div>
+  <div class="container">
+    <div class="form row">
+      <div class="col-md-6">
+        <div class="mb-3 ps-3">
+          <label class="forname pb-1 fw-bold fs-5">Full Name </label>
+          <input type="text" class="form-control f1" id="forname" placeholder="YOUR NAME">
+        </div>
+        <div class="mb-3 ps-3">
+          <label class="forname pb-1 fw-bold fs-5">Email ID</label>
+          <input type="email" class="form-control f1" id="forname" placeholder="name@mail.com">
+        </div>
+        <div class="mb-3 ps-3">
+          <label class="forname pb-1 fw-bold fs-5">Phone No</label>
+          <input type="number" class="form-control f1" id="forname" placeholder="123456789">
+        </div>
+      </div>
+      <div class="col-md-6 justify-content-end">
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label fw-bold fs-5">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Enter Your Message"></textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- Footer -->
+<section class="footer bg-dark">
+  <div class="container text-white text-center ">
+    <div class="row pb-3">
+      <div class="col-4 col-md-4 pt-3 mt-3">
+        <p>Copyright Your Website 2024</p>
+      </div>
+      <div class="col-4 col-md-4 ism">
+        <div class="iconsm mt-3 ms-3 rounded-circle">
+          <a style="color: #fff" href="https://twitter.com/home?lang=en" target="_blank"> <i class="fa fa-twitter"></i></a>
+          <!-- <i class="fa fa-twitter " aria-hidden="true"></i> -->
+        </div>
+        <div class="iconsm mt-3 ms-3 rounded-circle">
+          <a style="color: #fff" href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook" aria-hidden="true"></i></a>
+        </div>
+        <div class="iconsm mt-3 ms-3 rounded-circle" >
+          <a style="color: #fff" href="https://www.linkedin.com/" target="_blank"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        </div>
+        <div class="iconsm mt-3 ms-3 rounded-circle" >
+          <a style="color: #fff" href="https://www.instagram.com/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+        <div class="iconsm mt-3 ms-3 rounded-circle" >
+          <a style="color: #fff" href="https://www.github.com/NishitPatel2508" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div class="col-4 col-md-4 text-white pt-3">
+        <div class="txt ml-3 mt-3 ps-2">
+          <p>Private Policy  &nbsp; &nbsp;  Terms of Use</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+</body>
+ <script src="JS/scrollscript.js"></script>    
+</html>
