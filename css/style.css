@@ -1,6 +1,6 @@
 
 .home-intro{
-    background: url("../images/leaves.jpg");
+    background-image: url("../images/leaves.jpg");
     /* background-color: #9c9b9bee; */
     background-blend-mode: multiply;
     background-size: cover;
@@ -230,7 +230,7 @@
 .contact{
     height: auto;
     background-color: #eeee;
-    background: url("../images/galaxy.jpg");
+    background-image: url("../images/galaxy.jpg");
     background-position: center;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
