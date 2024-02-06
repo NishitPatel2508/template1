@@ -1,8 +1,6 @@
 // Need to be change is header
 const header = document.querySelector("header");
 const ft = document.querySelector(".fixed-top");
-
-// console.log(header)
 const sectionOne = document.querySelector(".home-intro");
 console.log(sectionOne);
 const sectionOneOptions = {
@@ -16,7 +14,8 @@ const sectionOneObserver = new IntersectionObserver(
             header.classList.add("nav-scrolled")   
             
             ft.classList.add("fixed-top")        
-            ft.classList.add("black")   
+            ft.classList.add("black") 
+
 
         } else{
             header.classList.remove("nav-scrolled")
@@ -24,6 +23,8 @@ const sectionOneObserver = new IntersectionObserver(
             ft.classList.remove("fixed-top")
             ft.classList.add("fixed-top")
             ft.classList.remove("black")  
+
+         
         }
     });
   },
