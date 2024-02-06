@@ -2,7 +2,6 @@
 const header = document.querySelector("header");
 const ft = document.querySelector(".fixed-top");
 const sectionOne = document.querySelector(".home-intro");
-console.log(sectionOne);
 const sectionOneOptions = {
     rootMargin:"-600px 0px 0px"
 };
