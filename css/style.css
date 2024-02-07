@@ -1,16 +1,15 @@
 
 .home-intro{
-    background-image: url("../images/leaves.jpg");
-    /* background-color: #9c9b9bee; */
+    background-image: url("../images/mainimg2.jpg");
+    background-color: #c5c5c5ee;
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     z-index: -1;
-    color: #fff;
     height: 100vh;
     text-align: center;
-    padding-top: 40vh ;
+    padding-top: 35vh ;
     width: 100%;
  }
 
