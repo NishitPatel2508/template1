@@ -286,6 +286,7 @@
         width: 2px;
         left: 32%;
         align-items: center;
+        background-color: transparent;
     }
     .about-img{
         height: 180px;
@@ -315,10 +316,25 @@
         text-align: left;
         margin-left: 190px;
     }
+    .home-intro p{
+        font-size: 20px;
+    }
+    .home-intro a{
+        font-size: 18px;
+    }
+
 }
-@media (max-width:991px){
+/* @media (max-width:991px){
     h1{
         font-size: 25px;
+    }
+} */
+@media (max-width:768px){
+    .home-intro p{
+        font-size: 20px;
+    }
+    .home-intro a{
+        font-size: 18px;
     }
 }
 
